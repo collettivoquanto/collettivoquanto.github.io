@@ -1,9 +1,11 @@
+@import url('colors.css');
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 /* Navbar */
@@ -11,7 +13,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1e3a8a;
+  background: var(--color-primary);
   padding: 1rem 2rem;
 }
 nav .logo {
@@ -38,8 +40,8 @@ nav ul li a:hover {
 .hero {
   text-align: center;
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #1e3a8a, #2563eb);
-  color: white;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: var(--color-white);
 }
 .hero h1 {
   font-size: 3rem;
@@ -50,15 +52,16 @@ nav ul li a:hover {
   margin-bottom: 2rem;
 }
 .btn {
-  background: #fff;
-  color: #1e3a8a;
+  background: var(--color-white);
+  color: var(--color-primary);
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
 }
 .btn:hover {
-  background: #e0e0e0;
+  background: var(--color-primary-hover);
+  color: var(--color-white);
 }
 
 /* Content */

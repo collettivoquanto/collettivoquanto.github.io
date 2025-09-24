@@ -1,0 +1,11 @@
+:root {
+  /* Arancione */
+  --color-primary: #d97706;
+  --color-primary-light: #f97316;
+  --color-primary-hover: #fb923c;
+
+  /* Testo e sfondi */
+  --color-bg: #f9f9f9;
+  --color-text: #333;
+  --color-white: #fff;
+}
